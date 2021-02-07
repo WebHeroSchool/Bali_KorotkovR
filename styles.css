@@ -30,31 +30,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-right: 0.8%;
+  margin-right: .8%;
   flex: 1;
   transition: opacity .5s;
 }
 
-.header__link::after{
-  /* position: absolute; */
-  /* left: 0; */
+.header__link::after {
   display: flex;
   content: '';
   width: 0;
   height: 2px;
   background: #d4bea3;
-  /* opacity: 0; */
   transition: opacity .5s, width .5s;
 }
 
-.header__link:hover::after{
+.header__link:hover::after {
   opacity: 1;
   width: 100%;
-}
-
-.content__btn:hover,
-.header__link:hover{
-  opacity: .8;
 }
 
 .header__link {
@@ -122,8 +114,7 @@
   background: url('./img/Bali.png') no-repeat;
   background-size: 94%;
   height: 23vh;
-  opacity: 0.8;
-  /* margin: 0 0 73px 0; */
+  opacity: .8;
 }
 
 .content__img {
@@ -131,11 +122,10 @@
 }
 
 .content__slogan {
-  /* width: 29vw; */
   color: #f8eee4;
   font: 22px/26px Museo Sans Cyrl, arial, helvetica, sans-serif;
   word-spacing: 2px;
-  padding-left: 0.4em;
+  padding-left: .4em;
   margin: 2em 0 1.8em 0;
 }
 
@@ -147,12 +137,17 @@
   border-radius: 2em;
   border: none;
   cursor: pointer;
-  margin-left: 0.6em;
+  margin-left: .6em;
   padding: 3.45%;
   transition: opacity .7s;
 }
 
- .images {
+.content__btn:hover,
+.header__link:hover {
+  opacity: .8;
+}
+
+.images {
   display: flex;
   flex: 1;
   align-items: center;
@@ -172,7 +167,7 @@
 
 .images__first {
   max-width: 36.22%;
-  padding-right: 3.85%
+  padding-right: 3.85%;
 }
 
 .images__second {
@@ -198,7 +193,7 @@
   padding-right: 0;
 }
 
-@media (min-width:1367px) and (max-width: 1660px) {
+@media (min-width: 1367px) and (max-width: 1660px) {
   .wrapper {
     max-width: 1660px;
   }
@@ -212,7 +207,7 @@
   }
 
   .header__link {
-    font-size: 0.97em;
+    font-size: .97em;
     margin-right: 5.5%;
   }
 
@@ -232,17 +227,17 @@
     max-width: 30vw;
   }
 
-   .content__slogan {
+  .content__slogan {
     width: 33vw;
     font-size: 1em;
-    padding-left: 0.8em;
+    padding-left: .8em;
     margin: 1.9em 0 1.4em 0;
-    letter-spacing: 0.005em;
+    letter-spacing: .005em;
   }
 
   .content__btn {
     font-size: 1.1em;
-    margin-left: 0.9em;
+    margin-left: .9em;
   }
 
   .images__item {
@@ -274,12 +269,10 @@
 
   .content {
     height: 66vh;
-    /* margin: 0 0 105px 0; */
   }
 
   .content__img {
-      max-width: 24.8vw;
-      /* margin: 0 0 0 0; */
+    max-width: 24.8vw;
   }
 
   .content__info {
@@ -287,17 +280,14 @@
   }
 
   .content__pic {
-  height: 24vh;
-  margin: 0 0 37px 0;
-  padding: 0 9px 0px 0;
+    height: 24vh;
+    margin: 0 0 37px 0;
+    padding: 0 9px 0px 0;
   }
 
-   .content__slogan {
-    /* font-size: 0.8em; */
+  .content__slogan {
     font: 16px/19px Museo Sans Cyrl300, arial, helvetica, sans-serif;
-    /* padding-left: 0.5em; */
     margin: 0 0 21px 0;
-    /* letter-spacing: 0.004em; */
     word-spacing: 1px;
     padding-left: 1.2em;
   }
@@ -313,7 +303,7 @@
   }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .wrapper {
     max-width: 1024px;
   }
@@ -322,7 +312,7 @@
     margin: 0 auto;
     max-width: 92%;
     height: 22vh;
- }
+  }
 
   .header__logo {
     max-width: 22%;
@@ -356,6 +346,7 @@
     height: 20.9vh;
     margin: 0 0 50px 0;
   }
+
   .content__img {
     margin: 0 0 -17px 0;
     max-width: 85%;
@@ -363,14 +354,12 @@
 
   .content__slogan {
     width: 104%;
-    font-size: 16.1px;
     margin: 0 0 24px 0;
     padding-left: 8.7px;
     font: 16px/19px Museo Sans Cyrl, arial, helvetica, sans-serif;
   }
 
   .content__btn {
-    font-size: 0.8em;
     margin-left: 10px;
     width: 19.7vw;
     font: 16px/19px 'Museo Sans Cyrl300', arial, helvetica, sans-serif;
@@ -386,7 +375,7 @@
 
   .images__first {
     max-width: 44.08%;
-    padding-right: 4.69%
+    padding-right: 4.69%;
   }
 
   .images__second {
@@ -406,25 +395,23 @@
 }
 
 @media (max-width: 767px) {
-
   .wrapper {
     max-width: 767px;
     background-position: 55%;
-    /* height: 90vh; */
     margin: 0 auto;
   }
 
   .header {
-   height: 18.4vh;
-   max-width: 88%;
+    height: 18.4vh;
+    max-width: 88%;
   }
 
- .header__wrapper {
+  .header__wrapper {
     width: 80%;
     height: 140px;
   }
 
- .header__logowrapper {
+  .header__logowrapper {
     padding-left: 6%;
   }
 
@@ -452,25 +439,21 @@
       padding: 157px 38px;
     }
 
-    .header__link {
-        color: #000;
-        line-height: 30px;
-        display: flex;
-        justify-content: center;
-        font: bold 30px/30px Roboto-bold, arial, helvetica, sans-serif;
-        margin: 31px 0 0;
-        padding: 0;
-      }
+  .header__link {
+      color: #000;
+      line-height: 30px;
+      display: flex;
+      justify-content: center;
+      font: bold 30px/30px Roboto-bold, arial, helvetica, sans-serif;
+      margin: 31px 0 0;
+      padding: 0;
+    }
 
   #checkbox:checked ~ .header__nav {
     visibility: visible;
     left: -10%;
   }
 
-  /* #checkbox:checked ~ .burger {
-    visibility: visible;
-    left: 0;
-  } */
 
   .header__burger {
     display: block;
@@ -511,13 +494,11 @@
     opacity: 0;
   }
 
-  .burger__active
-  .burger__line-second {
+  .burger__active .burger__line-second {
     transform: translateY(-50%) rotate(45deg);
   }
 
-  .burger__active
-  .burger__line-third {
+  .burger__active .burger__line-third {
     transform: translateY(-50%) rotate(-45deg);
   }
 
@@ -543,32 +524,32 @@
     max-width: 289px;
     }
 
-   .content__slogan {
-     max-width: 300px;
-     width: 79vw;
-     font-size: 0.9em;
-     text-align: center;
-     padding-left: 1.6em;
-     margin: 53px 0 33px 0;
-     letter-spacing: 0.2px;
-     font: 18px/22px Museo Sans Cyrl, arial, helvetica, sans-serif;
-     }
+  .content__slogan {
+    max-width: 300px;
+    width: 79vw;
+    font-size: .9em;
+    text-align: center;
+    padding-left: 1.6em;
+    margin: 53px 0 33px 0;
+    letter-spacing: .2px;
+    font: 18px/22px Museo Sans Cyrl, arial, helvetica, sans-serif;
+  }
 
-   .content__btn {
+  .content__btn {
      font-size: 16px;
      margin-left: 65px;
      width: 209px;
      height: 44px;
      font: bold 16px/19px Museo Sans Cyrl300, arial, helvetica, sans-serif;
-     }
+   }
 
-   .images {
-     display: none;
-     }
+  .images {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 767px) and (orientation:landscape) {
- .header__logowrapper {
+  .header__logowrapper {
     padding-left: 0%;
   }
 
@@ -600,24 +581,24 @@
     max-width: 270px;
     }
 
-   .content__slogan {
-     max-width: 336px;
-     font-size: 14px;
-     padding-left: 0;
-     text-align: center;
-     padding-left: 0;
-     margin: 10px 0 10px 0;
-     letter-spacing: 0.27px;
-     }
+  .content__slogan {
+    max-width: 336px;
+    font-size: 14px;
+    padding-left: 0;
+    text-align: center;
+    padding-left: 0;
+    margin: 10px 0 10px 0;
+    letter-spacing: .27px;
+  }
 
-   .content__btn {
-     font-size: 14px;
-     margin-left: 50px;
-     width: 209px;
-     height: 44px;
-     }
+  .content__btn {
+    font-size: 14px;
+    margin-left: 50px;
+    width: 209px;
+    height: 44px;
+  }
 
-   .images {
-     display: none;
-     }
+  .images {
+    display: none;
+  }
 }
