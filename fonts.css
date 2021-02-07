@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Museo Sans Cyrl';
-  src: url('./fonts/MuseoSansCyrl-100.woff') format('woff');
+  src:
+    url('./fonts/MuseoSansCyrl-100.ttf') format('ttf'),
+    url('./fonts/MuseoSansCyrl-100.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -8,7 +10,7 @@
 @font-face {
   font-family: 'Museo Sans Cyrl300';
   src:
-    url('./fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+    url('./fonts/MuseoSansCyrl-300.ttf') format('ttf'),
     url('./fonts/MuseoSansCyrl-300.woff') format('woff');
   font-weight: 300;
   font-style: normal;
