@@ -441,13 +441,12 @@
 
   .header__link {
     color: #000;
-    line-height: 30px;
     display: flex;
     justify-content: center;
     margin: 31px 0 0;
     padding: 0;
     font: bold 30px/29px 'Museo Sans Cyrl300', arial, helvetica, sans-serif;
-    }
+  }
 
   #checkbox:checked ~ .header__nav {
     visibility: visible;
@@ -581,7 +580,6 @@
   .content__slogan {
     max-width: 336px;
     font-size: 14px;
-    padding-left: 0;
     text-align: center;
     padding-left: 0;
     margin: 10px 0 10px 0;
