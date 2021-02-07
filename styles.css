@@ -50,7 +50,7 @@
 }
 
 .header__link {
-  font-family: 'Museo Sans Cyrl300';
+  font-family: 'Museo Sans Cyrl300', arial, helvetica, sans-serif;
   font-size: 22px;
   margin-right: 4.87%;
   color: #f8eee4;
@@ -327,7 +327,7 @@
   }
 
   .header__link {
-    font-family: 'Museo Sans Cyrl';
+    font-family: 'Museo Sans Cyrl', arial, helvetica, sans-serif;
     font-size: 16px;
     margin-right: 25px;
   }
@@ -425,35 +425,34 @@
   }
 
   .header__nav {
-      text-transform: lowercase;
-      display: block;
-      position: fixed;
-      visibility: hidden;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: #fff;
-      z-index: 3;
-      font-weight: 800;
-      margin: 0;
-      padding: 157px 38px;
-    }
+    text-transform: lowercase;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 3;
+    font-weight: 800;
+    margin: 0;
+    padding: 157px 38px;
+  }
 
   .header__link {
-      color: #000;
-      line-height: 30px;
-      display: flex;
-      justify-content: center;
-      font: bold 30px/30px Roboto-bold, arial, helvetica, sans-serif;
-      margin: 31px 0 0;
-      padding: 0;
+    color: #000;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 31px 0 0;
+    padding: 0;
+    font: bold 30px/29px 'Museo Sans Cyrl300', arial, helvetica, sans-serif;
     }
 
   #checkbox:checked ~ .header__nav {
     visibility: visible;
     left: -10%;
   }
-
 
   .header__burger {
     display: block;
@@ -485,8 +484,8 @@
     bottom: 0;
   }
 
-  .burger__active .burger__line{
-      background: black;
+  .burger__active .burger__line {
+    background: black;
   }
 
   .burger__active .burger__line-first,
@@ -527,7 +526,6 @@
   .content__slogan {
     max-width: 300px;
     width: 79vw;
-    font-size: .9em;
     text-align: center;
     padding-left: 1.6em;
     margin: 53px 0 33px 0;
@@ -536,19 +534,18 @@
   }
 
   .content__btn {
-     font-size: 16px;
-     margin-left: 65px;
-     width: 209px;
-     height: 44px;
-     font: bold 16px/19px Museo Sans Cyrl300, arial, helvetica, sans-serif;
-   }
+    margin-left: 65px;
+    width: 209px;
+    height: 44px;
+    font: bold 16px/19px Museo Sans Cyrl300, arial, helvetica, sans-serif;
+  }
 
   .images {
     display: none;
   }
 }
 
-@media only screen and (max-width: 767px) and (orientation:landscape) {
+@media only screen and (max-width: 767px) and (orientation: landscape) {
   .header__logowrapper {
     padding-left: 0%;
   }
